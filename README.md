@@ -25,7 +25,24 @@ git clone https://github.com/yourusername/flutter_template.git
 cd flutter_template
 ```
 
-### 2\. Install Dependencies
+### 2\. Set up Environment Variables
+
+- Create a new file called `.env` in the root directory
+- Copy the contents of `.env.example` into `.env` file
+- Get your Reown WalletConnect ProjectID
+    - Go to [WalletConnect Cloud](https://cloud.reown.com/)
+    - Sign in or create an account
+    - Create a new project or use an existing one
+    - Copy the `Project ID`
+- Replace `YOUR_PROJECT_ID` in ``.env`` with your actual Project ID
+
+
+
+> **NOTE:** Make sure to add your iOS bundle ID or Android Package Name to the key whitelists so that they are allowed to use your Project ID key.
+
+...
+
+### 3\. Install Dependencies
 
 ```bash
 # cd packages/flutter
@@ -33,7 +50,7 @@ cd flutter_template
 flutter pub get
 ```
 
-### 3\. Run the Application
+### 4\. Run the Application
 
 ```bash
 flutter run
