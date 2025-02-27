@@ -36,11 +36,8 @@ cd flutter_template
     - Copy the `Project ID`
 - Replace `YOUR_PROJECT_ID` in ``.env`` with your actual Project ID
 
-
-
 > **NOTE:** Make sure to add your iOS bundle ID or Android Package Name to the key whitelists so that they are allowed to use your Project ID key.
 
-...
 
 ### 3\. Install Dependencies
 
